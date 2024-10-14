@@ -38,7 +38,7 @@ const Product = () => {
     getProduct();
   }, [id]);
 
-  const Loading = () => {
+  const Loading = () => {  
     return (
       <>
         <div className="container my-5 py-2">
